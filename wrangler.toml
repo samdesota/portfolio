@@ -1,0 +1,26 @@
+name = "portfolio"
+main = ".output/server/index.mjs"
+compatibility_date = "2024-11-01"
+compatibility_flags = ["nodejs_compat"]
+
+# Assets configuration for SPA
+[assets]
+directory = ".output/public"
+binding = "ASSETS"
+not_found_handling = "single-page-application"
+
+# Environment variables (non-secrets)
+[vars]
+NODE_ENV = "production"
+
+# Observability
+[observability]
+enabled = true
+
+[[routes]]
+pattern = "zocomputer.io"
+zone_name = "zocomputer.io"
+
+[[routes]]
+pattern = "www.zocomputer.io"
+zone_name = "zocomputer.io"
