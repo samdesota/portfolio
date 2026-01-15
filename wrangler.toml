@@ -18,9 +18,7 @@ NODE_ENV = "production"
 enabled = true
 
 [[routes]]
-pattern = "zocomputer.io"
-zone_name = "zocomputer.io"
+pattern = "438d.xyz"
+zone_name = "438d.xyz"
 
-[[routes]]
-pattern = "www.zocomputer.io"
-zone_name = "zocomputer.io"
+

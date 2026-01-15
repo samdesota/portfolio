@@ -9,7 +9,7 @@ export default function Home() {
           Sam D • Brooklyn, NY
         </h3>
         <p>
-          Currently interested in software, music and meditation and attention research. Currently looking for projects (seed or early stage probably), <A href="/resume">see my resume</A>.
+          Interested in software that eliminates distractions, sick beats (dnb, house and psyjazz fusion among others) and meditation and attention research. Currently looking for an interesting project, <A href="/resume">see my resume</A>.
         </p>
       </div>
 
